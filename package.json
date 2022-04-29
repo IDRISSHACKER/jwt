@@ -1,0 +1,31 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "json web token with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDRISSHACKER/jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "nodejs"
+  ],
+  "author": "IDRISSHACKER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IDRISSHACKER/jwt/issues"
+  },
+  "homepage": "https://github.com/IDRISSHACKER/jwt#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
